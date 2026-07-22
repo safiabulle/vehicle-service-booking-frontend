@@ -1,10 +1,16 @@
+import MainLayout from "../../layouts/MainLayout";
+
 function Dashboard() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <h1 className="text-4xl font-bold">
+    <MainLayout>
+      <h1 className="text-4xl font-bold mb-4">
         Customer Dashboard
       </h1>
-    </div>
+
+      <p>
+        Welcome to the Vehicle Service Booking System.
+      </p>
+    </MainLayout>
   );
 }
 
